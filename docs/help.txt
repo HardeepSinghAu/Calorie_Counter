@@ -1,0 +1,4 @@
+# Installing Ruby
+
+To install Ruby on your machine, please [follow the instructions](https://www.ruby-lang.org/en/documentation/installation/)
+
