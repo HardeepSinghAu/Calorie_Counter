@@ -13,6 +13,15 @@ On running this application, the user will be prompted to select one of four opt
 3. Calculate my calorie intake for today
 4. Finished
 
+I planned an intial and more detailed flow chart for the application to start getting an idea of how the application would commence.
+
+![Initial detailed flow chart of app](src/images/flowchart1.png)
+
+I settled on a less detailed flowchart to show a clean overview of the application to assist in organising how the application with link and loop.
+
+![Complete overview flow chart of app](src/images/flowchart2.png)
+
+
 ![Welcome menu](src/images/welcome.png)
 
 Options 1 to 3 will eventually bring you back to the main menu. Whereas option 4 will exit the application.
@@ -47,7 +56,7 @@ Upon choosing option 4, the app will bid the user farewell.
 
 2. You will need to [clone or fork](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) this repository.
 
-3. You will also need to use the [Bundler](https://rubygems.org/gems/bundler) [Gem](https://rubygems.org/).
+3. You will also need to use the [Bundler](https://rubygems.org/gems/bundler)[Gem](https://rubygems.org/).
 
 4. Once you have opened the repository in your editor, open a terminal and locate the /src folder. Type in the command
 > bundle install
@@ -62,15 +71,37 @@ Should you have any troubles with step 5, type in
 This gives you executive permission and will allow you to run the application. If this fails then the next step is to type in
 > sudo chmod 755 run_app.sh
 
+# Planning
+
+I embarked on creating this app by planning the application first. I decided it would have 3 features which would be:
+
+- BMI calculator, which took in the users details and and produced their body mass index (BMI) to determine if they are in a healthy weight range.
+
+- Calories required, which took in the users details and produced a figure for the minimum calories that user needs to consume per day.
+
+- Daily Calorie intake, took in the user details and produced a total of calories consumed that day.
+
+# Trello
+
+I used a Trello board to plan and organise my tasks, starting with the main requirements for the terminal app. Working up to include ideas that may have been out of my reach initially and were noted to be added at a later date. I also used a Trello to mark completed tasks and continuously add tasks as they came up.
+
+![Trello board 1](src/images/Trello1.png)
+![Trello board 2](src/images/Trello2.png)
+
+## Gems
+
+### Gem TTY-Prompt
+I chose to use tty-prompt as this keeps the code dry and tidy, as it allowed me to store the users input aswell as prompt them to answer a query all in one neat line. For example;
+
+> food_item_calories =  prompt.ask("how many calories is in one #{food_item}? ")
+
+
+
 ## classes and objects, methods, variables, inheritence
 
-## Calorie Counter
-
-- Calories required
-- BMI calculator
-- Daily Calorie intake
 
 ## App Limitations 
 - Single User
 - Single session application
 - No persistance of data
+
