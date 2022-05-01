@@ -2,7 +2,7 @@
 
 ## About the App
 
-The app is an MVP of a calorie counter app.The aim of the app is to allow the user to calculate their BMI and their minimum daily calorie intake requirements. This is a useful app for people who want to loose weight but also those he want to gain weight.
+The aim of this Calorie Counter app is to allow the user to calculate their BMI and their minimum daily calorie intake requirements. This is a useful app for people who want to loose weight but also those he want to gain weight.
 
 ## Functionality
 
@@ -20,6 +20,8 @@ I planned an intial and more detailed flow chart for the application to start ge
 I settled on a less detailed flowchart to show a clean overview of the application to assist in organising how the application with link and loop.
 
 ![Complete overview flow chart of app](src/images/flowchart2.png)
+
+## Walk through the application
 
 
 ![Welcome menu](src/images/welcome.png)
@@ -56,7 +58,7 @@ Upon choosing option 4, the app will bid the user farewell.
 
 2. You will need to [clone or fork](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop) this repository.
 
-3. You will also need to use the [Bundler](https://rubygems.org/gems/bundler)[Gem](https://rubygems.org/).
+3. You will also need to use the [Bundler](https://rubygems.org/gems/bundler) [Gem](https://rubygems.org/).
 
 4. Once you have opened the repository in your editor, open a terminal and locate the /src folder. Type in the command
 > bundle install
@@ -95,13 +97,12 @@ I chose to use tty-prompt as this keeps the code dry and tidy, as it allowed me 
 
 > food_item_calories =  prompt.ask("how many calories is in one #{food_item}? ")
 
+### TTY-Progressbar
 
+Another gem the app utilizes is the TTY-Progressbar which shows progress in a bar format as week as estimated time to completion.
 
-## classes and objects, methods, variables, inheritence
-
+### Colorize
+I added the Colorize gem to provide the application with some colour and improve the users experience in an attempt to make the output more attractive.
 
 ## App Limitations 
-- Single User
-- Single session application
-- No persistance of data
-
+The application has a number of limitations, it is for use by a single user for a single session as there is no presistance of data. 
