@@ -17,7 +17,7 @@ I planned an intial and more detailed flow chart for the application to start ge
 
 ![Initial detailed flow chart of app](src/images/flowchart1.png)
 
-I settled on a less detailed flowchart to show a clean overview of the application to assist in organising how the application with link and loop.
+I settled on a less detailed flowchart to show a clear overview of the application to assist in organising how the application with link and loop.
 
 ![Complete overview flow chart of app](src/images/flowchart2.png)
 
@@ -63,7 +63,7 @@ Upon choosing option 4, the app will bid the user farewell.
 4. Once you have opened the repository in your editor, open a terminal and locate the /src folder. Type in the command
 > bundle install
 
-5. Run the app with 
+5. Open a terminal in your editor and run the app with the command  
 > ./run_app.sh
 
 ## Troubleshooting
@@ -85,7 +85,7 @@ I embarked on creating this app by planning the application first. I decided it 
 
 # Trello
 
-I used a Trello board to plan and organise my tasks, starting with the main requirements for the terminal app. Working up to include ideas that may have been out of my reach initially and were noted to be added at a later date. I also used a Trello to mark completed tasks and continuously add tasks as they came up.
+I used a [Trello board](https://trello.com/b/ygtzi0lY/terminal-app) to plan and organise my tasks, starting with the main requirements for the terminal app. Working up to include ideas that may have been out of my reach initially and were noted to be added at a later date. I also used a Trello to mark completed tasks and continuously add tasks as they came up.
 
 ![Trello board 1](src/images/Trello1.png)
 ![Trello board 2](src/images/Trello2.png)
