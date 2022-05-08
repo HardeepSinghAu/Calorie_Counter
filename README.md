@@ -15,16 +15,16 @@ On running this application, the user will be prompted to select one of four opt
 
 I planned an intial and more detailed flow chart for the application to start getting an idea of how the application would commence.
 
-![Initial detailed flow chart of app](src/images/flowchart1.png)
+![Initial detailed flow chart of app](./src/images/flowchart1.png)
 
 I settled on a less detailed flowchart to show a clear overview of the application to assist in organising how the application with link and loop.
 
-![Complete overview flow chart of app](src/images/flowchart2.png)
+![Complete overview flow chart of app](./src/images/flowchart2.png)
 
 ## Walk through the application
 
 
-![Welcome menu](src/images/welcome.png)
+![Welcome menu](./src/images/welcome.png)
 
 Options 1 to 3 will eventually bring you back to the main menu. Whereas option 4 will exit the application.
 
@@ -32,25 +32,25 @@ Options 1 to 3 will eventually bring you back to the main menu. Whereas option 4
 
 Option 1 will take the user to bmi.rb where they will be prompted to enter their weight and height to calculate their BMI. This will estimate if they are under weight, normal weight, over weight or obese along with a disclaimer and warning.
 
-![Calculate User BMI](src/images/option1.png)
+![Calculate User BMI](./src/images/option1.png)
 
 ### Option 2
 
 Options 2 will take the user to calories_required.rb, where the user will be prompted to enter their weight, height, age and gender to calculate and print their minimum calories required per day.
 
-![Minimum calories required](src/images/reqcalories.png)
+![Minimum calories required](./src/images/reqcalories.png)
 
 ### Option 3
 
 Option 3 will take the user to counter.rb, where the user will be prompted to enter what they ate, how much of that food item they consumed and how many calories one of those food items is. This will tally the users calorie consumption and ask if they want to add another food item. If the user selects yes, they will be prompted to add another food item, its calories and quanitiy consumed. However, if the user selects no, they will be directed to the main menu.
 
-![Calorie Counter](src/images/counter.png)
+![Calorie Counter](./src/images/counter.png)
 
 ### Option 4
 
 Upon choosing option 4, the app will bid the user farewell.
 
-![Goodbye](src/images/goodbye.png)
+![Goodbye](./src/images/goodbye.png)
 
 ## Run this application in 5 steps
 
@@ -87,8 +87,8 @@ I embarked on creating this app by planning the application first. I decided it 
 
 I used a [Trello board](https://trello.com/b/ygtzi0lY/terminal-app) to plan and organise my tasks, starting with the main requirements for the terminal app. Working up to include ideas that may have been out of my reach initially and were noted to be added at a later date. I also used a Trello to mark completed tasks and continuously add tasks as they came up.
 
-![Trello board 1](src/images/Trello1.png)
-![Trello board 2](src/images/Trello2.png)
+![Trello board 1](./src/images/Trello1.png)
+![Trello board 2](./src/images/Trello2.png)
 
 ## Gems
 
